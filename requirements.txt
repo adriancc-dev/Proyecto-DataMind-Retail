@@ -1,0 +1,32 @@
+# DataMind Retail — Dependencias
+# Python 3.9+
+# Instalar con: pip install -r requirements.txt
+#
+# NOTA TensorFlow según plataforma:
+#   macOS Apple Silicon (M1/M2/M3): pip install tensorflow-macos>=2.13.0
+#   Windows / Linux / macOS Intel:  pip install tensorflow>=2.13.0
+
+# Datos y procesamiento
+pandas>=2.0.0,<2.3.0
+numpy>=1.24.0,<2.0.0
+scipy>=1.11.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+joblib>=1.3.0
+
+# Deep Learning
+# Descomenta la línea correspondiente a tu sistema:
+tensorflow-macos>=2.13.0   # macOS Apple Silicon (M1/M2/M3)
+# tensorflow>=2.13.0       # Windows / Linux / macOS Intel
+
+# Big Data
+pyspark>=3.4.0
+
+# MLOps
+mlflow>=2.8.0
+
+# Dashboard y visualización
+streamlit>=1.28.0
+plotly>=5.17.0
